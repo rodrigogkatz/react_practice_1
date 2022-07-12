@@ -33,3 +33,5 @@ ReactDom object calls the render method and has two parameters
 document.getElementById('root') => where this element should be rendered in the real DOM
 
 then on the public file we can find the index.html file where we have the div id 'root' which is selected by document.getElementById('root')
+
+created a new folder called components inside src, this is a convention for creating new components

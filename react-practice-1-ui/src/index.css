@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+body {
+  margin: 3rem;
+  background-color: #dfdfdf;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 20rem;
+  margin: 1rem;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.divider {
+  border-bottom: 1px solid lightgray;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-description {
+  margin-bottom: 1rem;
+}
+
+.actions {
+  text-align: right;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  border-radius: 0px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: gray;
+  color: white;
+}
