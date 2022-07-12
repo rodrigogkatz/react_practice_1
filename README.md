@@ -45,3 +45,5 @@ then we can use from App.js the props.property_name inside Todo.js component
 listen click on delete button, onClick we are just pointing to the name of function which handles the todo delete
 onClick={deleteHandler}
 and then we created a nested function deleteHandler() inside Todo() function in charge of the above listed items
+
+added new imports to App.js, added two more components => Modal & Backdrop js files, and added new styles for them
