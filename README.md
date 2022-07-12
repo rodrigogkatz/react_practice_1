@@ -35,3 +35,13 @@ document.getElementById('root') => where this element should be rendered in the 
 then on the public file we can find the index.html file where we have the div id 'root' which is selected by document.getElementById('root')
 
 created a new folder called components inside src, this is a convention for creating new components
+
+to create attributes to able to pass them through the <Todo /> html tag
+we need to create something on the Todo.js file to pick up those values
+to make that happen we use the parameter "props" inside the Todo(props) function
+props is a key value JS object which will hold all the attributes
+then we can use from App.js the props.property_name inside Todo.js component
+
+listen click on delete button, onClick we are just pointing to the name of function which handles the todo delete
+onClick={deleteHandler}
+and then we created a nested function deleteHandler() inside Todo() function in charge of the above listed items
