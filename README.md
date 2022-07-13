@@ -51,3 +51,13 @@ added new imports to App.js, added two more components => Modal & Backdrop js fi
 changing the state of the application to make it interactive...
 that's why useState() function was added and new custom props which trigger custom functions were added
 now if we press outside the modal or "yes"/"no" buttons the modal closes
+
+
+----
+in the new project created and new "components" folder inside src
+clean app.js
+### `npm install react-router-dom`
+then created a new folder called "pages" to handle routes inside src at the same as "components"
+inside "pages" create a component named AllMeetups.js, NewMeetup.js, Favorites.js
+import { BrowserRouter } from 'react-router-dom'; added on index.js to wrapp the app within pages
+inside app.js we want to use other components which are imported from the React Router Dom but just importing the Route component
