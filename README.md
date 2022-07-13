@@ -47,3 +47,7 @@ onClick={deleteHandler}
 and then we created a nested function deleteHandler() inside Todo() function in charge of the above listed items
 
 added new imports to App.js, added two more components => Modal & Backdrop js files, and added new styles for them
+
+changing the state of the application to make it interactive...
+that's why useState() function was added and new custom props which trigger custom functions were added
+now if we press outside the modal or "yes"/"no" buttons the modal closes
